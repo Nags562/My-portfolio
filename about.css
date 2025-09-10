@@ -1,0 +1,70 @@
+/* About Section */
+body {
+    font-size: larger;
+}
+.about {
+  padding: 60px 20px;
+  color: black;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #ffb400; /* accent color (matches theme) */
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* makes it responsive */
+  gap: 20px;
+}
+
+.about-text {
+  flex: 1 1 55%;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.about-text .highlight {
+  color: #ffb400; /* accent color */
+  font-weight: bold;
+}
+
+.about-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 250px;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid #ffb400;
+}
+
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-newsletter h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.footer-links {
+  background-color: #2e5c2e;
+  padding: 4rem 2rem 1rem;
+}

@@ -1,0 +1,187 @@
+
+Body {
+  /* font-family: ‘Inter’, sans-serif; */
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+}
+
+.contact-section {
+  padding: 50px 20px; /* side padding for small screens */
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 50px;
+  max-width: 1100px;
+  margin: auto;
+  align-items: start;
+  border-style: groove;
+  border-radius: 10px;
+}
+
+.contact-info{
+    padding: 30px;
+}
+/* Left Info */
+.contact-info .tagline {
+  font-size: 14px;
+  color: #777;
+}
+
+.contact-info h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.contact-info h2 span {
+  color: #f5a623; /* yellow accent */
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.info-list {
+  list-style: none;
+}
+
+.info-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #444;
+}
+
+.info-list i {
+  background: #f5a623;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+/* Right Form */
+.contact-form {
+  background: #fff;
+  padding: 30px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  grid-column: span 2;
+}
+
+Label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+Input,
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+Textarea {
+  resize: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f5a623;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #333;
+}
+
+/* -------------------
+   RESPONSIVE DESIGN
+------------------- */
+
+/* Tablets & below */
+@media (max-width: 992px) {
+  .contact-container {
+    grid-template-columns: 1fr; /* stack vertically */
+    gap: 40px;
+  }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr; /* single column */
+  }
+  .form-group.full {
+    grid-column: span 1;
+  }
+  .contact-info h2 {
+    font-size: 22px;
+  }
+  Input,
+  select,
+  textarea {
+    font-size: 13px;
+  }
+  .submit-btn {
+    width: 100%; /* full width button */
+    justify-content: center;
+  }
+}
+
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-newsletter h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.footer-links {
+  background-color: #2e5c2e;
+  padding: 4rem 2rem 1rem;
+}

@@ -1,0 +1,5 @@
+/* services */
+.col {
+  display: flex;
+  align-content: flex-end;
+}

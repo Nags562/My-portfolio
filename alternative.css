@@ -1,0 +1,74 @@
+/*styles strictly for headers and footers*/
+header {
+    width: 100%;
+    background-color: #3a4a2f;
+    position: absolute;
+    top: 5px;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.navigations {
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 3px;
+}
+.navigations ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+footer {
+    background-color: #3a4a2f;
+    width: 100%;
+    /* position: absolute; */
+    /* bottom: 5px; */
+    display: flex;
+    flex-direction: column;
+}
+.fsection {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.fsection ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: large;
+    margin-right: 20px;
+}
+footer p {
+    text-align: center;
+    padding: 10px;
+}
+.logo-section img {
+    width: 40px;
+    padding: 5px;
+    height: 40px;
+    border-radius: 40%;
+}
+.navigations h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a {
+    font-size: larger;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+}
