@@ -12,25 +12,35 @@
 </head>
 
 <body>
-    <header>
-        <div class="navigations">
+        <header>
+            <div class="navigations">
+                <h2>
+                    <div class="logo-section">
+                        <img src="WhatsApp Image 2025-09-07 at 23.57.04_00ad5f83.jpg" alt="">
+                    </div>
+                    Nagawa Prisca
+                </h2>
+                <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </header>
 
-            <h2>
-                <div class="logo-section">
-                    <img src="WhatsApp Image 2025-09-07 at 23.57.04_00ad5f83.jpg" alt="">
-                </div>
-                Nagawa Prisca
-            </h2>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact me</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <section>
+        <script>
+            // Responsive navbar toggle
+            document.addEventListener('DOMContentLoaded', function() {
+                const navToggle = document.querySelector('.nav-toggle');
+                const navList = document.querySelector('.navigations ul');
+                navToggle.addEventListener('click', function() {
+                    navList.classList.toggle('active');
+                });
+            });
+        </script>
+        <section>
 
         <section class="services-section">
             <div class="section-header">
