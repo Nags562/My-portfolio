@@ -1,4 +1,9 @@
 /*styles strictly for headers and footers*/
+html, body {
+    overflow-x: hidden;
+    width: 100vw;
+    max-width: 100vw;
+}
 header {
     width: 100%;
     background-color: #3a4a2f;
