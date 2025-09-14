@@ -1,6 +1,14 @@
 /* About Section */
 body {
     font-size: larger;
+    overflow-x: hidden;
+}
+.about {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 .about {
   padding: 60px 20px;
